@@ -2,15 +2,17 @@
 A retail store tracks daily sales (in units) over two weeks:
  120, 135, 130, 140, 125, 150, 135, 140, 145, 150, 138, 142, 135, 148
 a) Calculate the mean, median, and mode of daily sales.
-
-
+    mean=138.07
+    median=139
+    mode=135
 b) Determine the range and standard deviation.
-
-
+    range=150-120=30
+    standard deviation=9.18
 c) Explain which central tendency measure best represents the "typical" sales day and why.
-
+    median because it provides a location of values with less influence 
 
 d) The manager claims the store is consistently improving sales. Based on the dispersion measures, do you agree? Why or why not?
+     no because the store does not show consistent improvement
 
 
 
@@ -23,16 +25,22 @@ Class B: 60, 85, 90, 95, 100, 70, 75, 80, 85, 90
 
 
 a) Find the mean, median, and mode for each class.
-
-
+     mean=86.7
+     median=87.5
+     mode=85 and 90
 b) Calculate the variance and standard deviation for each class.
+     variance of class A = 31.11
+     SD of class A = 5.58
 
+     Variance of class B = 133.4
+     SD of class B =11.55
 
 c) Which class has a higher average performance? Which class shows more consistency?
+      Class A shows higher average performance and more consistency
 
 
 d) Based on your analysis, suggest which class might benefit from additional tutoring.
-
+      class B
 
 
 3. Employee Salary Review
@@ -44,17 +52,28 @@ Dept Y: 2800, 3500, 2700, 4000, 3000, 2900
 
 
 a) Compute the mean and median salaries for both departments.
-
+     Dept X
+           Mean = 3075
+           median = 3075
+     Dept Y
+           Mean = 3150
+           median = 2950
 
 b) Calculate the variance and standard deviation to measure salary dispersion.
+     Dept X
+           variance = 7291.67
+           SD = 85.4
+     Dept Y 
+           Variance = 208666.67
+           SD = 456.8
 
 
 c) Discuss which department has more salary inequality. What could be the possible implications of this on employee morale?
-
+       Dept Y has more salary inequality.
+       Employees might have unfairness 
 
 d) If you were the HR manager, what salary adjustment strategy would you recommend based on these statistics?
-
-
+        consider raising lower-end salaries in dept Y to reduce inequality
 
 4. Housing Market Analysis
 House prices (in $1000s) in two neighborhoods are:
@@ -65,34 +84,53 @@ Neighborhood B: 200, 250, 300, 350, 400, 230, 310
 
 
 a) Calculate the mean, median, and interquartile range (IQR) for both neighborhoods.
+       NEIGHBORHOOD A
+                   Mean = 270
+                   median = 270
+                   IQR = 20
 
+       NEIGHBORHOOD B
+                   Mean = 291.43
+                   median = 300
+                   IQR = 120
 
 b) Which neighborhood shows more price stability? Explain using the measures of dispersion.
-
+           Neighborhood A 
 
 c) If a buyer wants to minimize investment risk, which neighborhood would you recommend and why?
-
+           Neighborhood A because prices are more stable and lower risk
 
 d) Identify any potential outliers in either dataset and explain how they affect the average price.
-
+           neighborhood A has no outlier
+           neighborhood B also has no outlier
 
 
 5. Delivery Efficiency Report
 A logistics company tracks delivery times (hours) for 15 shipments:
  24, 26, 25, 30, 28, 25, 27, 29, 24, 26, 25, 27, 45, 23, 24
 a) Calculate the mean, median, and mode of delivery times.
-
+       mean = 27.2
+       median = 26
+       mode = 24 and 25
 
 b) Compute the range, variance, and standard deviation.
-
+       range = 22
+       variance = 26.29
+       SD = 5.13
 
 c) Use the IQR method to detect any outliers.
-
+        Q1 = 24
+        Q2 = 28
+        IQR = 4
+         Lower bound = 18
+         Upper bound = 34
+       45 is outlier
 
 d) Discuss how outliers, if any, could affect the company’s assessment of delivery performance.
-
+        outlier increases the mean
 
 e) Suggest ways the company could improve delivery consistency based on your analysis.
-
-
+         use median instead of mean 
+         consistent training for drivers
+         implement realtime tracking and feedback systems
 
